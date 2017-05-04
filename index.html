@@ -7,6 +7,27 @@
 <body>
 <center><h1>PokeBatalla!</h1></center>
 	<script type="text/javascript" src="assets/js/pokemon.js"></script>
-<div align="center"><img src="assets/pokemon.png" width="300" height="200"alt=HTML5></div>
+
+	<div align="center"><img src="assets/pokemon.png" width="300" height="200"alt=HTML5></div>
+
+	<div align="center">
+	Escoge a tu Pokemon <br><br>
+	
+	<select id="pokemon-uno" required>
+		<option value="Pikachu" class="pikachu">Pikachu</option>
+		<option value="Charmander" class="charmander">Charmander</option>
+		<option value="Caterpie" class="caterpie">Caterpie</option>
+		</select><br><br>
+		
+		<select id="pokemon-dos" required>
+		<option value="Pikachu" class="pikachu">Pikachu</option>
+		<option value="Charmander" class="charmander">Charmander</option>
+		<option value="Caterpie" class="caterpie">Caterpie</option>
+		</select><br>
+		<br>
+		<a href="#" onclick="peleaPokemon()">Pelear</a><br>
+		</div>
+
+	<p id="resultado"></p>
 </body>
 </html>
